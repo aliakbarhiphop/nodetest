@@ -4,8 +4,8 @@ const app = express();
 app.get("", (req, res) => {
   res.send("Hello express!");
 });
-app.get("/weather", (req, res) => {
-  res.send("Your weather");
+app.get("/ali", (req, res) => {
+  res.send("Your Ali");
 });
 
 app.listen(3000, () => {
